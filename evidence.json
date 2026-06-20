@@ -32,7 +32,7 @@
     { "path": "llms.txt", "sha256": "2dfb14ac66b4486cc8cca856c1cf255955ce544ca695b1f3c0864f222396aafa" },
     { "path": "search-index.json", "sha256": "6f09bbaa079ee8730a8222e4caebf95dae0065ebb7a602f8e500b940fa0ed06d" }
   ],
-  "live_url": "https://github-gists-sourcey-docs.surge.sh/",
+  "live_url": "https://belljinwo-jpg.github.io/",
   "observations": [
     { "topic": "source", "detail": "Source repo: https://github.com/github/rest-api-description; exact commit 1847198856aa730d19ac7fef6f2617ecbec8e01e and blob 26ab99a5c0ffe590185a3dfed7c96bf5871a7996." },
     { "topic": "license", "detail": "The upstream repository license is MIT, verified through GitHub's repository license endpoint and LICENSE.md." },

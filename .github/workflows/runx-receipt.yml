@@ -29,7 +29,7 @@ jobs:
           runx --version | tee receipts/runx-version.txt
           runx harness runx-validation --json | tee receipts/harness-result.json
           runx skill runx-validation \
-            -i public_url=https://github-gists-sourcey-docs.surge.sh/ \
+            -i public_url=https://belljinwo-jpg.github.io/ \
             -i evidence_url=https://raw.githubusercontent.com/belljinwo-jpg/github-gists-sourcey-docs/main/evidence.json \
             --json | tee receipts/run-result.json
           jq -e '.closure.disposition == "closed" and .closure.reason_code == "process_closed"' receipts/run-result.json

@@ -5,7 +5,7 @@ GitHub Gists REST operations from GitHub's maintained, MIT-licensed
 `github/rest-api-description` repository at the immutable commit recorded in
 `evidence.json`.
 
-Live reference: https://github-gists-sourcey-docs.surge.sh/
+Live reference: https://belljinwo-jpg.github.io/
 
 ## Build
 
