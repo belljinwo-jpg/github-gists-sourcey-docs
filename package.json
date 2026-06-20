@@ -1,0 +1,12 @@
+{
+  "name": "modrinth-sourcey-docs",
+  "private": true,
+  "scripts": {
+    "build": "sourcey build"
+  },
+  "dependencies": {
+    "consola": "^3.4.2",
+    "js-yaml": "^4.1.0",
+    "sourcey": "3.6.3"
+  }
+}

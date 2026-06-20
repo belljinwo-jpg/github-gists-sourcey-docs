@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generator": {
+    "name": "Sourcey",
+    "version": "3.6.3",
+    "adapter": "OpenAPI"
+  },
+  "library": {
+    "name": "Modrinth API (Labrinth)",
+    "repository": "https://github.com/modrinth/code",
+    "source_commit": "49dd844fe1455c07240f3e757910441b2e398b97",
+    "source_file": "apps/docs/public/openapi.yaml",
+    "source_blob": "d6a168d18f5908912a174d318dbc1a81ddba3caa",
+    "spec_title": "Labrinth",
+    "spec_version": "v2.7.0/366f528"
+  },
+  "coverage": {
+    "path_count": 55,
+    "operation_count": 77,
+    "search_index_entries": 136,
+    "minimum_required_operations": 20
+  },
+  "build": {
+    "command": "pnpm install --frozen-lockfile && pnpm run build",
+    "output_directory": "dist",
+    "source_spec_sha256": "67d036ab6336291a79f8449bd4152c818553d1a7165efd80f246634627d9ce90"
+  },
+  "pages": [
+    {
+      "path": "index.html",
+      "description": "Default entry point for the generated API reference",
+      "sha256": "c59a0f68c8c54bc13d6fdaef10d528571a4505be760744c107a38ae151653505"
+    },
+    {
+      "path": "api-reference.html",
+      "description": "Sourcey API reference containing all 77 operations and models",
+      "sha256": "c59a0f68c8c54bc13d6fdaef10d528571a4505be760744c107a38ae151653505"
+    },
+    {
+      "path": "llms.txt",
+      "description": "Compact machine-readable documentation index",
+      "sha256": "360de534e30e5a6e8946280e19c584d4dedda5de49e4081d184649f0fb3a427f"
+    },
+    {
+      "path": "search-index.json",
+      "description": "Client-side navigation and search index",
+      "sha256": "8d2567279058caaa7fed4672d15ee658cf546af5b2d4143d232028d031054d43"
+    }
+  ],
+  "live_url": null,
+  "verification": {
+    "local_url": "http://127.0.0.1:8765/",
+    "observed_title": "Modrinth API Reference - API Reference",
+    "working_navigation": true,
+    "first_endpoint": "GET /search",
+    "last_endpoint": "GET /statistics"
+  }
+}
