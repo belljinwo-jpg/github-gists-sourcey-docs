@@ -1,34 +1,79 @@
 {
   "closure": {
-    "closed_at": "2026-06-20T16:00:17.885Z",
-    "disposition": "failed",
-    "reason_code": "process_failed",
+    "closed_at": "2026-06-20T16:02:47.794Z",
+    "disposition": "closed",
+    "reason_code": "process_closed",
     "summary": "cli-tool default completed"
   },
   "execution": {
-    "exit_code": 1,
-    "skill_claim": "",
-    "stderr": "node:internal/deps/undici/undici:5971\n      return await WebAssembly.instantiate(mod, {\n                               ^\n\nRangeError: WebAssembly.instantiate(): Out of memory: Cannot allocate Wasm memory for new instance\n    at lazyllhttp (node:internal/deps/undici/undici:5971:32)\n\nNode.js v22.22.3\n",
-    "stdout": "",
-    "structured_output": ""
+    "exit_code": 0,
+    "skill_claim": {
+      "checks": {
+        "evidenceObservations": true,
+        "evidenceSummary": true,
+        "operationCoverage": true,
+        "permissiveLicense": true,
+        "pinnedCommit": true,
+        "runxVersionRecorded": true,
+        "sourceyBranding": true
+      },
+      "evidence_url": "https://raw.githubusercontent.com/belljinwo-jpg/github-gists-sourcey-docs/main/evidence.json",
+      "observation_count": 9,
+      "operation_count": 20,
+      "public_url": "https://github-gists-sourcey-docs.surge.sh/",
+      "status": "validated"
+    },
+    "stderr": "",
+    "stdout": "{\"status\":\"validated\",\"public_url\":\"https://github-gists-sourcey-docs.surge.sh/\",\"evidence_url\":\"https://raw.githubusercontent.com/belljinwo-jpg/github-gists-sourcey-docs/main/evidence.json\",\"operation_count\":20,\"observation_count\":9,\"checks\":{\"sourceyBranding\":true,\"operationCoverage\":true,\"evidenceSummary\":true,\"evidenceObservations\":true,\"pinnedCommit\":true,\"permissiveLicense\":true,\"runxVersionRecorded\":true}}\n",
+    "structured_output": {
+      "checks": {
+        "evidenceObservations": true,
+        "evidenceSummary": true,
+        "operationCoverage": true,
+        "permissiveLicense": true,
+        "pinnedCommit": true,
+        "runxVersionRecorded": true,
+        "sourceyBranding": true
+      },
+      "evidence_url": "https://raw.githubusercontent.com/belljinwo-jpg/github-gists-sourcey-docs/main/evidence.json",
+      "observation_count": 9,
+      "operation_count": 20,
+      "public_url": "https://github-gists-sourcey-docs.surge.sh/",
+      "status": "validated"
+    }
   },
-  "payload": "",
+  "payload": {
+    "checks": {
+      "evidenceObservations": true,
+      "evidenceSummary": true,
+      "operationCoverage": true,
+      "permissiveLicense": true,
+      "pinnedCommit": true,
+      "runxVersionRecorded": true,
+      "sourceyBranding": true
+    },
+    "evidence_url": "https://raw.githubusercontent.com/belljinwo-jpg/github-gists-sourcey-docs/main/evidence.json",
+    "observation_count": 9,
+    "operation_count": 20,
+    "public_url": "https://github-gists-sourcey-docs.surge.sh/",
+    "status": "validated"
+  },
   "receipt": {
     "acts": [
       {
         "artifact_refs": [],
         "closure": {
-          "closed_at": "2026-06-20T16:00:17.885Z",
-          "disposition": "failed",
+          "closed_at": "2026-06-20T16:02:47.794Z",
+          "disposition": "closed",
           "reason_code": "process_exit",
-          "summary": "node:internal/deps/undici/undici:5971\n      return await WebAssembly.instantiate(mod, {\n                               ^\n\nRangeError: WebAssembly.instantiate(): Out of memory: Cannot allocate Wasm memory for new instance\n    at lazyllhttp (node:internal/deps/undici/undici:5971:32)\n\nNode.js v22.22.3\n"
+          "summary": "cli-tool exited successfully"
         },
         "criterion_bindings": [
           {
             "criterion_id": "process_exit",
             "evidence_refs": [],
-            "status": "failed",
-            "summary": "node:internal/deps/undici/undici:5971\n      return await WebAssembly.instantiate(mod, {\n                               ^\n\nRangeError: WebAssembly.instantiate(): Out of memory: Cannot allocate Wasm memory for new instance\n    at lazyllhttp (node:internal/deps/undici/undici:5971:32)\n\nNode.js v22.22.3\n",
+            "status": "verified",
+            "summary": "cli-tool exited successfully",
             "verification_refs": []
           }
         ],
@@ -73,7 +118,7 @@
       "terms": []
     },
     "canonicalization": "runx.receipt.c14n.v1",
-    "created_at": "2026-06-20T16:00:17.885Z",
+    "created_at": "2026-06-20T16:02:47.794Z",
     "decisions": [
       {
         "artifact_refs": [],
@@ -101,8 +146,8 @@
         "selected_harness_ref": null
       }
     ],
-    "digest": "sha256:ab37894aed43732bd010acb020466963db83610da825a90fd5a101f6e14a553b",
-    "id": "sha256:f7913315193dc50e4e499715b4e9e803ba8c5a67dbd6c775ee1462667f91a1fd",
+    "digest": "sha256:6f67c2a690474435ed07f791ae2cd263566169fba7342f76248404f7d0ffdc0d",
+    "id": "sha256:88d475de70257607c2138a66b2eb970dcfb3fcdabf7203db48cfbbfeeaf54ed5",
     "idempotency": {
       "content_hash": "sha256:run_default_313026c441c4-default-content",
       "intent_key": "sha256:run_default_313026c441c4-default-intent",
@@ -119,25 +164,25 @@
     },
     "schema": "runx.receipt.v1",
     "seal": {
-      "closed_at": "2026-06-20T16:00:17.885Z",
+      "closed_at": "2026-06-20T16:02:47.794Z",
       "criteria": [
         {
           "criterion_id": "process_exit",
           "evidence_refs": [],
-          "status": "failed",
-          "summary": "node:internal/deps/undici/undici:5971\n      return await WebAssembly.instantiate(mod, {\n                               ^\n\nRangeError: WebAssembly.instantiate(): Out of memory: Cannot allocate Wasm memory for new instance\n    at lazyllhttp (node:internal/deps/undici/undici:5971:32)\n\nNode.js v22.22.3\n",
+          "status": "verified",
+          "summary": "cli-tool exited successfully",
           "verification_refs": []
         }
       ],
-      "disposition": "failed",
-      "last_observed_at": "2026-06-20T16:00:17.885Z",
-      "reason_code": "process_failed",
+      "disposition": "closed",
+      "last_observed_at": "2026-06-20T16:02:47.794Z",
+      "reason_code": "process_closed",
       "summary": "cli-tool default completed"
     },
     "signals": [],
     "signature": {
       "alg": "Ed25519",
-      "value": "base64:Qft_js9hHhLsr8tOU_N0mlS09oO1BPC3qly2bDDHVjTIaR00L-CPjLH5GUsyyuzA0K2TBBNbk2Qv2r9hgG41DA"
+      "value": "base64:RyLy5btNycj_nJH8kmY7K1DXY9YdER5T9FdZZxZbO9dQPbWAnZ-UF0Tkw-_-JmRwBLHA4RqDspgvX1sPqdyMAw"
     },
     "subject": {
       "commitments": [],
@@ -148,7 +193,7 @@
       }
     }
   },
-  "receipt_id": "sha256:f7913315193dc50e4e499715b4e9e803ba8c5a67dbd6c775ee1462667f91a1fd",
+  "receipt_id": "sha256:88d475de70257607c2138a66b2eb970dcfb3fcdabf7203db48cfbbfeeaf54ed5",
   "run_id": "run_default_313026c441c4",
   "schema": "runx.skill_run.v1",
   "skill_name": "sourcey-validation",
