@@ -37,7 +37,7 @@ jobs:
           test -n "$latest"
           cp "$latest" receipts/sourcey-validation.json
           runx verify --receipt receipts/sourcey-validation.json --json | tee receipts/verification.json
-          jq -e '.status == "success"' receipts/verification.json
+          jq -e '.valid == true and .signature.status == "valid"' receipts/verification.json
       - name: Commit public proof
         run: |
           git config user.name github-actions[bot]
